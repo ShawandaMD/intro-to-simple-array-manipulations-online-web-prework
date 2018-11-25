@@ -37,36 +37,29 @@ end
 
 def using_concat(array1, array2)
     all_of_my_favs = array1.concat(array2)
-  
 end 
 
 def using_insert(array, element)
-  #list_of_esoteric_programming_languages = ["Ante", "ArnoldC", "Befunge", "Binary lambda calculus", "Chef", "GolfScript", "Ook!"]
-   # another_esoteric_language = "Malbolge"
-    new_array = array.insert(4,element)
+ new_array = array.insert(4,element)
 
 end
 
 def using_uniq (array)
-  #captain_planet_and_the_planeteers = ["Captain Planet", "Gaia", "Kwame", "Gi", "Linka", "Wheeler", "Gaia"]
-    new_array = array.uniq
+ new_array = array.uniq
     
 end
 
 def using_flatten(array)
- # private_colleges_in_newyork = ["New York University", ["Manhattan School of Music ", "Columbia University"], "The Juilliard School", "Bard College", "Cooper Union"]
-     flat_array =  array.flatten
+ flat_array =  array.flatten
 end
 
 def using_delete (array,string)
-  #instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
-    no_offense_steven = array.delete(string)
+  no_offense_steven = array.delete(string)
     
 end 
 
 def using_delete_at(array,int)
-  #famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
-    deleted_robot = array.delete_at(int)
+  deleted_robot = array.delete_at(int)
 
 end
 
